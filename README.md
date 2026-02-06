@@ -1,13 +1,20 @@
 # Parallel-Computing-Train-Booking-Simulation
 
 A train booking simulation with active bookings, cancellations and waitlist optimization. 
+
 OpenMP used for parallel searching for seat availability. 
+
 MPI is used for distributed waitlist resolution. Each rank is responsible for a subset of days. 
 
+
 Simulation set-up:
+
 Number of days: 30
+
 Number of stations: 20
+
 Number of seats: 200 
+
 Total user requests: 100000
 
 Computation time:
