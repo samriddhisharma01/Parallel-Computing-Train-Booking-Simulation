@@ -186,4 +186,3 @@ int main(int argc, char** argv) {
 
 
 
-how do i put this on my github? should i just put it as a pyfile and write a readme please tell all the steps
