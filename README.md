@@ -11,12 +11,12 @@ Number of seats: 200
 Total user requests: 100000
 
 Computation time:
-
-MPI Nodes (-np),OMP Threads,Runtime (sec)
-1,1,0.262 (Baseline)
-1,2,2.783
-1,4,7.844
-2,1,0.204 (Best Performance)
-4,1,0.208
-2,2,2.718
-2,4,9.026
+| MPI Nodes (-np) | OMP Threads | Runtime (sec) |
+| :--- | :--- | :--- |
+| **1** | **1** | **0.262 (Baseline)** |
+| 1 | 2 | 2.783 |
+| 1 | 4 | 7.844 |
+| **2** | **1** | **0.204 (Best Performance)** |
+| 4 | 1 | 0.208 |
+| 2 | 2 | 2.718 |
+| 2 | 4 | 9.026 |
